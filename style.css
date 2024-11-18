@@ -273,6 +273,10 @@ footer {
   gap: 1rem;
 }
 
+.socials a {
+  color: var(--my-secondary-color);
+}
+
 @media screen and (max-width: 600px) {
   .container-header h1 {
     display: none;
