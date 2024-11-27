@@ -282,9 +282,17 @@ footer {
     display: none;
   }
 
-  .nav ul {
+  .nav{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .nav > ul > li{
+    font-size: 1rem;
+  }
+
+  .nav > ul > span{
+    display: none;
   }
 
   .hero-box h1 {
@@ -294,6 +302,10 @@ footer {
   .content-box {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .news > .news-text > p{
+    padding-left: 1rem;
   }
 
   .news-img {
